@@ -1,38 +1,91 @@
-.App {
+body {
+  background: rgb(63,94,251);
+
+background-image: radial-gradient(circle, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 3.5em;
   text-align: center;
+  margin: 20px;
+  padding: 0;
+  text-shadow: black 0.2em 0.2em 0.3em;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+h2 {
+  font-size: 2em;
+  text-align: center;
+  margin: 20px;
+  padding: 0;
+  color: rgb(224, 224, 230);
+  text-shadow: rgb(19, 19, 19) 0.1em 0.1em 0.3em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h3 {
+  font-size: 1.2em;
+  color: red;
+  text-align: center;
+  margin: 20px;
+  padding: 0;
+  text-shadow: rgb(233, 225, 244) 0.03em 0.02em ;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.commentaire {
+  font-size: 1.5em;
+  text-align: center;
+  margin: 20px;
+  padding: 0;
+}
+
+img {
+  width: 60%;
+  height: 60%;
+  object-fit: cover;
+  border-radius: 2%;
+  margin: 20px;
+
+}
+
+.card {
+  background-image: url(https://wallpaperaccess.com/full/477072.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+  color: white;
+  padding: 20px;
+  margin: 40px;
+  border-radius: 30px;
+  display: flex;
+  box-shadow:
+  2.8px 1.7px 9px -6px rgba(0, 0, 0, 0.113),
+  6.7px 4.2px 16.9px -6px rgba(0, 0, 0, 0.131),
+  12.5px 7.9px 23.9px -6px rgba(0, 0, 0, 0.146),
+  22.3px 14.1px 31.1px -6px rgba(0, 0, 0, 0.164),
+  41.8px 26.3px 42.1px -6px rgba(0, 0, 0, 0.185),
+  100px 63px 80px -6px rgba(0, 0, 0, 0.21)
+;
+}
+
+.card-body {
+  margin: 20px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+button {
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  border-radius: 50px!important;
+  border: none!important;
+  padding: 10px;
+  margin: 20px;
 }
